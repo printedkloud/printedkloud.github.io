@@ -1,0 +1,57 @@
+html {
+	background: url("../images/bwcamera.jpg") #cccccc no-repeat 50% 50% fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	margin-left: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+img {
+	border-style: solid;
+	border-color: rgba(255,0,0,0.50);
+	border-width: 13px;
+	padding: 12px;
+	margin-top: 25px;
+}
+
+h1 {
+	font-family: "Palatino Linotype", serif;
+	color: rgba(195,36,36,0.6);
+	margin-top: 75px;
+}
+
+hr {
+	color: rgb(255,255,255);
+	width: 100%;
+}
+
+.colorp {
+	color: rgb(255,255,255);
+}
+
+#slogan {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 17px;
+	color: rgba(0,0,0,0.9);
+	margin-top: 15px;
+}
+
+img {
+	width: 15%;
+	height: 15%;
+}
+
+p.welcome {
+	background-color: rgba(195,36,36,0.6);
+	color: rgba(255,255,255,0.95);
+	width: 100%;
+	padding: 8px;
+}
+
+ul.a {
+	list-style-type: square;
+	color: rgba(0,0,0,0.7);
+}
