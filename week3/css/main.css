@@ -1,5 +1,5 @@
-html {
-	background: url("../images/bwcamera.jpg") #cccccc no-repeat 50% 50% fixed;
+body {
+	background: url("../images/bwcamera.jpg") no-repeat 50% 50% fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
