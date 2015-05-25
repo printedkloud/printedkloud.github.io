@@ -1,0 +1,156 @@
+* { margin:0; padding:0; box-sizing:border-box;} 
+
+body {
+	background: url("../images/bwcamera.jpg") no-repeat 50% 50% fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 17px;
+}
+
+img {
+	border: solid rgba(255,255,255,0.5) 2px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+	padding: 12px;
+	margin: 40px;
+	width: 45vh;
+	height: 35vh;
+	display: block;
+}
+	
+h1 {
+	color: rgba(255,155,0,0.9);
+	margin-top: 75px;
+	font-size: 30px;
+	font-style: normal
+}
+
+/* main title */
+.home {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	border-bottom: solid 2px rgba(255,199,122,0.5);
+}
+
+.firstsection {
+	width: 100%;
+	height: 30%;
+	margin: 0 0 40px;
+	padding: 5px;
+}
+
+.title {
+	height: 50px;
+	width: 100%;
+	padding: 5px 10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	display: block;
+	position: relative;
+}
+.colorp {
+	color: rgb(255,255,255);
+}
+
+/* link to email */
+
+a:hover {
+	color: white;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 22px;
+	color: rgba(255,155,0,0.9);
+	margin-left: 40px;
+	padding: 15px 25px;
+	border: solid rgba(255,255,255,0.5) 2px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    width: 300px;
+}
+
+.downbutton {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+
+.scrolltext {
+	text-align: center;
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+
+}
+
+/* start of main content */
+
+.main {
+	width: 100%;
+	height: 85%;
+	background-size: cover;
+	background: no-repeat 50% 50% fixed;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+h2 {
+	color: rgba(255,255,255,1);
+}
+
+.topsecond {
+	width: 50%;
+	height: 85%;
+	background-color: blue;
+}
+
+.secondheader {
+	width: 100%;
+	height: 40%;
+	position: fixed;
+	background-color: black;
+}
+
+.secondsection {
+	width: 100%;
+	height: 30%;
+	margin: 0 0 40px;
+	padding: 5px;
+}
+
+p.welcome {
+	color: rgba(255, 165, 52, 0.8);
+	width: 50%;
+	padding: 8px;
+	margin-left: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,240,0.6);
+}
+
+p {
+	margin-left: 40px;
+	color: rgba(255,255,255,0.8);
+}
+
+ul.square {
+	border: solid rgba(255,155,0,0.9) 2px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    padding: 20px;
+	margin: 40px;
+	width: 45vh;
+	list-style-type: square;
+	color: rgba(255,255,255,0.8);
+}
