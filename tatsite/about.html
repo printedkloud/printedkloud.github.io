@@ -8,67 +8,75 @@
   </head>
 
   <body>
-  <aside class="sidebar clearfix">
-  <div id="sidelogo">
+  <header class="sidebar clearfix">
     <img src="images/talllogo.png" class="logo" alt="tatianalogo">
-  </div>
     <p id="catchphrase">DESIGNER - <span class="biowords">ILLUSTRATOR</span> - CRAZY CAT LADY</p>
   <nav>
-    <div class="nav clearfix">
       <ul class="bottomnav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#"><span class="basepage">About</span></a></li>
-        <li><a href="#">Store</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="works.html">Work</a></li>
+        <li><a href="about.html"><span class="basepage">About</span></a></li>
+        <li><a href="store.html">Store</a></li>
       </ul>
-    </div>
   </nav>
-    </aside>
+    </header>
 
-  <section id="about" class="clearfix">
+<main>
+
+  <section id="about">
     <div id="aboutphoto">
     <img src="images/tatmarphoto.jpg" alt="Tatiana About Photo" class="tatphoto">
     <div class="abouttext">
       <article>
-      <p>Tatiana Marcussian is a designer and illustrator working outside of Boston, MA. She received a B.F.A in Graphic Design at Emmanuel College in Boston, MA. Most recently she managed the graphics department at Nimbit Inc. specializing in CD design. During that time as well as now she freelances and has created identities, illustrations, marketing collateral, posters and merchandise design.</p> 
+        <p>Tatiana Marcussian is a designer and illustrator working outside of Boston, MA. She received a B.F.A in Graphic Design at Emmanuel College in Boston, MA. Most recently she managed the graphics department at Nimbit Inc. specializing in CD design. During that time as well as now she freelances and has created identities, illustrations, marketing collateral, posters and merchandise design.</p> 
 
-      <p>When she isn't designing she is watching ridiculous amounts of tv, spending time with her cat and eating. Always eating.</p>
+        <p>When she isn't designing she is watching ridiculous amounts of tv, spending time with her cat and eating. Always eating.</p>
 
-      <p>If you are interested in hiring Tatiana for new work, you can email her at <a href="mailto:tatiana@tatdidthat.com?Subject=Hi,%From%the%Site!">tatiana@tatdidthat.com</a>. You can also follow her on <a href="https://twitter.com/TatMarcussian">Twitter</a>, <a href="https://www.facebook.com/pages/Tatiana-Marcussian-Design/210589179005262">Facebook</a> <a href="https://instagram.com/tatdidthat/">Instagram</a> and <a href="http://www.rdio.com/people/TatianaMarcussian/">Rdio</a>!</p>
+        <p>If you are interested in hiring Tatiana for new work, you can email her at <a href="mailto:tatiana@tatdidthat.com?Subject=Hi,%From%the%Site!" target="_blank">tatiana@tatdidthat.com</a>. You can also follow her on <a href="https://twitter.com/TatMarcussian" target="_blank">Twitter</a>, <a href="https://www.facebook.com/pages/Tatiana-Marcussian-Design/210589179005262" target="_blank">Facebook</a> <a href="https://instagram.com/tatdidthat/" target="_blank">Instagram</a> and <a href="http://www.rdio.com/people/TatianaMarcussian/" target="_blank">Rdio</a>!</p>
       </article>
     </div>
     </div>
   </section>
 
+</main>
 
-
-<footer class="unofficialcontact clearfix">
-  <div class="contactform">
-    <form action="mailto:tatiana@tatdidthat.com" method="POST"
-  enctype="multipart/form-data" name="EmailTestForm" class="form">
-
-      <h3 id="contactname">CONTACT (say hi!)</h2>
-
-      <p class="name">
-        <input type="text" name="name" id="name" placeholder="Name">
-      </p>
-
-      <p class="email">
-        <input type="text" name="email" id="email" placeholder="Email Address">
-        </p>
-
-      <p class="message">
-        <textarea name="message" id="message" placeholder="Write Me A Message" rows="4" cols="60">
-        </textarea>
-      </p>
-
-      <p class="submit">
-        <input type="submit" value="Send">
-      </p>
-    </form>
-    </div>
-</footer>
+<footer>
     
+    <div class="container">
+      <div class="row header">
+        <h2>CONTACT</h2>
+        <h4>Fill out the form and say hello!</h4>
+      </div>
+      <div class="row body">
+        <form action="mailto:tatiana@tatdidthat.com" method="POST">
+          <ul>
+            <li>
+              <p class="left">
+                <label for="name">Name</label>
+                <input type="text" name="Name" placeholder="Jane Doe">
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <label for="email">Email<span class="req">*</span></label>
+                <input type="email" name="email" placeholder="JaneDoe@gmail.com">
+              </p>
+            </li>
+
+            <li>
+              <label for="comments">Comments</label>
+              <textarea cols="46" rows="3" name="comments" placeholder="Say Hello"></textarea>
+            </li>
+
+            <li>
+              <input class="btn btn-submit" type="submit" value="Submit">
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </footer>
     
     
     
