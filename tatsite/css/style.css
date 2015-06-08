@@ -43,7 +43,7 @@ li {
 .sectionthumbs {
   width: 200px;
   display: block;
-  border: solid 1px rgba(58,58,58,.8);
+  outline: solid 2px rgba(58,58,58,.8);
   padding: 3px;
   margin: 0px 10px;
 }
@@ -168,14 +168,30 @@ nav {
   text-align: center;
   text-transform: uppercase;
   width: 80%;
-  right: 0;
+  margin-left: 330px;
 }
-
-/* Thumbs for Works Page */
 
 #work {
-  right: 0;
+  margin-left: 330px;
+  width: 400px;
+  height: 400px;
+  float: left;
 }
+
+
+/* Image Section for Works Page */
+
+.work {
+  margin-left: 330px;
+  width: 50%;
+  height: 400px;
+}
+
+#topthumbs {
+  float: left;
+  width: 60%;
+}
+
 
 #packaging {
   float: left;
