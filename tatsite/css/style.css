@@ -160,7 +160,11 @@ width: 80%;
 
 #wholetext {
   background-color: rgba(220,242,253,.7);
+  margin-top: 10%;
+  margin-right: 50px;
+  padding: .5em;
 }
+
 .storetextfirst {
   font-family: 'Sail', cursive;
   font-size: 50px;
@@ -199,14 +203,13 @@ width: 80%;
 /* Image Section for Works Page */
 
 .work {
-  margin-left: 330px;
-  width: 50%;
-  height: 400px;
+  margin-left: 5%;
+  margin-top: 8%;
+  width: 90%;
 }
 
 #topthumbs {
-  float: left;
-  width: 60%;
+  margin-bottom: 5%;
 }
 
 
