@@ -115,6 +115,10 @@ main {
   color: rgba(58,58,58,1);
 
 }
+
+#about article {
+  height: 90%;
+}
 /*-----*/
 
 /* -- Navigation -- */
