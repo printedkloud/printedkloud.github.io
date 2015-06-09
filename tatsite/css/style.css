@@ -39,7 +39,7 @@ a {
 .sectionthumbs {
   width: 200px;
   outline: solid 2px rgba(58,58,58,.8);
-  padding: 20px;
+  padding: 10px;
   margin: 10px 15px;
 
 }
@@ -208,20 +208,46 @@ width: 80%;
   width: 90%;
 }
 
+#topthumbs img {
+  padding: 5px;
+  width: 150px;
+
+}
+
 #topthumbs {
   margin-bottom: 5%;
 }
 
+figure {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption {
+  text-align: center;
+  color: rgba(58,58,58,.5);
+}
+
+#illustrations a {
+  color: #3A3A3A;
+  padding-left: 10px;
+}
 
 #packaging {
-  float: left;
-  max-width: 960px;
-  margin: 30px auto;
-  padding: 2em;
+  margin-top: 5%;
 }
-h2 {
-  margin-bottom: 10px;
+
+h2.divider {
+  margin-bottom: 5%;
   color: rgba(58,58,58,1);
+  background-color: rgba(22,242,253,.06);
+}
+
+#packaging a {
+  color: #3A3A3A;
+  padding-left: 10px;
 }
 
 .thumbs {
@@ -229,8 +255,14 @@ h2 {
   margin: .5em;
 }
 
+#packaging .thumbs {
+  margin-right: 2%;
+  margin-top: 2.5%;
+  width: 175px;
+}
+
 .waythumbs {
-  width: 250px;
+  height: 150px;
 }
 
 /* -- Footer -- */
