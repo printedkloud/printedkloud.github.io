@@ -103,7 +103,7 @@ main {
 
 .abouttext {
   text-align: left;
-  width: 300px;
+  width: 45%;
   position: absolute;
   padding: 15px;
   top: 0;
@@ -116,9 +116,6 @@ main {
 
 }
 
-#about article {
-  height: 90%;
-}
 /*-----*/
 
 /* -- Navigation -- */
