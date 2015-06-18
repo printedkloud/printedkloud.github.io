@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>Chocolat/loader.gif at master · nicolas-t/Chocolat</title>
+    <title>Chocolat/left.png at master · nicolas-t/Chocolat</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTIwNzgwMTc6ODRkNDIzYzc1NzBkMDVkYzk2ZjFkY2Y1MmZmZWQ0MjA6OWQ5OTdiZWExZjc2MzFjMTU1NmVjZTVlNGI1ZGRjMWJmOGFhZjczYzQxMjVhMDFmYWU4YzlhZDdlOTYyNDk0OA==--2e5e452029d8dff46033c49d63957317a9e06688">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTIwNzgwMTc6ODRkNDIzYzc1NzBkMDVkYzk2ZjFkY2Y1MmZmZWQ0MjA6MTIyMWM1NjZlNTA5MWRlYWQ4NjEwYjlkNWE3MTFkYzYyMjhjMGNjZGZmNzllN2ZhZWMwOWJmZDI3YzM4ZjM5Zg==--1c048f38ccea7e11c5e6d6f58951e4a1a0554902">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -32,7 +32,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="49D56C58:678C:6F029A0:5580D8C5" name="octolytics-dimension-request_id" /><meta content="12078017" name="octolytics-actor-id" /><meta content="printedkloud" name="octolytics-actor-login" /><meta content="e874985b8ec8260590942732616bca161f5bc07a265c0d445f27db30111922ac" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="49D56C58:678C:6F03118:5580D8CD" name="octolytics-dimension-request_id" /><meta content="12078017" name="octolytics-actor-id" /><meta content="printedkloud" name="octolytics-actor-login" /><meta content="e874985b8ec8260590942732616bca161f5bc07a265c0d445f27db30111922ac" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -46,7 +46,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="ySThz0GuVQ2ScKxZR7HlA4YH8VGDw2KdR2RNBw9RbFbZJ0wGHCCpwswku11/Ls45bW2c1lf9p3OHLnSTbPBiww==" name="csrf-token" />
+<meta content="zD20GHLgi5WTHEa/xw/E+R9IL8WZuCMRHTI5KP/ozsKFRqJnKiUmUG/TkOg66xaffxhRzf1M5vpWmly8Be8edA==" name="csrf-token" />
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-4a8149b8016d5359ad2c49df2fad7583fdb965107b7f7de91a17b687336fef9f.css" media="all" rel="stylesheet" />
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-c97c34f354d881281585ec0a7f62b8a8c7c53c18bf0d31f189803de93868c450.css" media="all" rel="stylesheet" />
@@ -194,7 +194,7 @@
           Settings
         </a>
 
-        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+CDpHtNN5lHsfAsHscu1udcmJnv8JQQ/8t2rzceVlWpFIPveH7yPBvLu0ebKeThP7vGC71c3iwxNVm6HvulTTA==" /></div>
+        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZMlmY77tupcBDup6ncb+exGpkMvAox/KauhFgv0eV76CfGiGf+796Aep8nDzO7pnIcO9s92TAepWX8+6yP+4Yw==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -225,7 +225,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="uex/rJgOcJfnI2WDJ6W+vcuJPFCKXiLYslxGHnDEW4kOfb2UlLpG6/a3r6UzQc+6Fjr3NDKEqFj8Awj5jnS69g==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="4411205" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AKUmcL0ib5sQ1ip9gcW2dniT4vToomddsYuK5nzwbcHXSy3NEmfX/9xYpgfF2IFbJr6qtdGsXZ0U325o/1ECtw==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="4411205" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/nicolas-t/Chocolat/subscription"
@@ -300,7 +300,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="q2rGP9t66ub8DVtkRW9HcpLInec/qYfyFglv5jFUCe+d6LIHW5JqdLC89EYHX4R+R/UXEc3UTX8KIy6cquoqXQ==" /></div>
+    <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SnXyVSKEFsZEMeuyx8DyRTnB5fcVjlXVcJ3Cu4Llu6wwwGJelJADqL3G6tJ/+rrGVvlT8fr5nIOgHNhyuhLHcA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar nicolas-t/Chocolat"
@@ -312,7 +312,7 @@
           33
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="k0v2H7tSGezIw4ZhM5dYzj/1VNmumI95672B9jKM24zk9/7/9tB74kZrRKUepISSDuY/xXzQWYKgpi0CFGH2lA==" /></div>
+    <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xqNrnrHrmCgsawElR3myBNwIl059FZXHHuphdY+4xUIj9Lh6waa3ZbFWX1ZZLwjCX2ostVMvIdMym0GZqBb4YQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star nicolas-t/Chocolat"
@@ -328,7 +328,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="H30q2HCBajamI1FIb0kvAwTlDbAx/d51Z91UbyrQG0pPmiaHQ1/ZOF3R0lbNx0tIftjTBOIHiE6hdQS4jf2RvA==" /></div>
+          <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JnRyCnc4yrcFfzfTpA4jrfPIyKTFu4hlNNrq/LxSdhDzn+fNhQGJ/TsftIFxzIvbW4mSzusUoQUxW8MYbOrg2g==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -454,7 +454,7 @@
 
 
 <div class="clone-options">You can clone with
-  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1Yw/RJM6y7NPAxsNLDPbBjSzHKD0DuajIRSLpKrHDRECkVDQooDLC9gK3lggRjyZ5QnJGnuuJPHKe54YBp8m1A==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="FHBm0+HubUfPRyTSz5E7V4teDxWmo2J3YnF0OxUWS88Eh/J9KjMCDj9Wn8VAvDAr3dI/oX1yrMOf/hPv570JbQ==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Vi/qYhN1vnlJ5vxpgR0W5fkZImXt6vk/KkLWS0LDK3g7Yo7jlF1eEfPlP73EhZLx7On0ySDIMHg6YmN+x0ZD7g==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cFIE+YNDwlpzQOYivbsEa7KGYX1IF1xNdcybkflqUAbnNOqYubTjCckBwYWh89OVP58kG8fInLPbT29RsJex/g==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GlIieTiEZuC6MLGyHZ0HDpNGOb7JjlxwDvT18CCQnXYqCpSgHa1uKL98u7rbtdMMOOf+01KnVHzAVkCxDanuYA==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="MYwI8/GD0QSPIzHDjLNbRXXu+tvKex+n2xk4uUhEsQ26bcFH291FpDTzcObd5XTGxXvAAYWRJYX5CHkCz59zJg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
   <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
     <span class="octicon octicon-question"></span>
   </a>
@@ -482,9 +482,9 @@
 
           
 
-<a href="/nicolas-t/Chocolat/blob/182978ba355405e6f6b4c85dcfc736adaab75b22/images/loader.gif" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/nicolas-t/Chocolat/blob/182978ba355405e6f6b4c85dcfc736adaab75b22/images/left.png" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:95e9a16606ae7568855573c9ea021aaf -->
+<!-- blob contrib key: blob_contributors:v21:7b198898d2c054043bbc1c48696d1b38 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -528,7 +528,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/nicolas-t/Chocolat/blob/V0.3.1/images/loader.gif"
+               href="/nicolas-t/Chocolat/blob/V0.3.1/images/left.png"
                data-name="V0.3.1"
                data-skip-pjax="true"
                rel="nofollow">
@@ -538,7 +538,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/nicolas-t/Chocolat/blob/master/images/loader.gif"
+               href="/nicolas-t/Chocolat/blob/master/images/left.png"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -558,7 +558,7 @@
 
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/nicolas-t/Chocolat/tree/0.4.4/images/loader.gif"
+              <a href="/nicolas-t/Chocolat/tree/0.4.4/images/left.png"
                  data-name="0.4.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -567,7 +567,7 @@
             </div>
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/nicolas-t/Chocolat/tree/0.4.3/images/loader.gif"
+              <a href="/nicolas-t/Chocolat/tree/0.4.3/images/left.png"
                  data-name="0.4.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -576,7 +576,7 @@
             </div>
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/nicolas-t/Chocolat/tree/0.4.2/images/loader.gif"
+              <a href="/nicolas-t/Chocolat/tree/0.4.2/images/left.png"
                  data-name="0.4.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -585,7 +585,7 @@
             </div>
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/nicolas-t/Chocolat/tree/0.4.1/images/loader.gif"
+              <a href="/nicolas-t/Chocolat/tree/0.4.1/images/left.png"
                  data-name="0.4.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -594,7 +594,7 @@
             </div>
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/nicolas-t/Chocolat/tree/0.4/images/loader.gif"
+              <a href="/nicolas-t/Chocolat/tree/0.4/images/left.png"
                  data-name="0.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -622,51 +622,72 @@
   </div>
 
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/nicolas-t/Chocolat" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Chocolat</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/nicolas-t/Chocolat/tree/master/images" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">images</span></a></span><span class="separator">/</span><strong class="final-path">loader.gif</strong>
+    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/nicolas-t/Chocolat" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Chocolat</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/nicolas-t/Chocolat/tree/master/images" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">images</span></a></span><span class="separator">/</span><strong class="final-path">left.png</strong>
   </div>
 </div>
 
-<include-fragment class="commit commit-loader file-history-tease" src="/nicolas-t/Chocolat/contributors/master/images/loader.gif">
-  <div class="file-history-tease-header">
-    Fetching contributors&hellip;
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="@nicolas-t" class="avatar" height="24" src="https://avatars3.githubusercontent.com/u/1765930?v=3&amp;s=48" width="24" />
+        <span class="author"><a href="/nicolas-t" rel="author">nicolas-t</a></span>
+        <time datetime="2013-01-06T17:44:06Z" is="relative-time">Jan 6, 2013</time>
+        <div class="commit-title">
+            <a href="/nicolas-t/Chocolat/commit/878c9b5ece4c9532490a512d1b898e5493718894" class="message" data-pjax="true" title="images">images</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>1</strong>
+           contributor
+        </a>
+      </p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="@nicolas-t" height="24" src="https://avatars3.githubusercontent.com/u/1765930?v=3&amp;s=48" width="24" />
+            <a href="/nicolas-t">nicolas-t</a>
+          </li>
+      </ul>
+    </div>
   </div>
 
-  <div class="participation">
-    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
-    <p class="loader-error">Cannot retrieve contributors at this time</p>
-  </div>
-</include-fragment>
 <div class="file">
   <div class="file-header">
     <div class="file-actions">
 
       <div class="btn-group">
-        <a href="/nicolas-t/Chocolat/raw/master/images/loader.gif" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/nicolas-t/Chocolat/commits/master/images/loader.gif" class="btn btn-sm " rel="nofollow">History</a>
+        <a href="/nicolas-t/Chocolat/raw/master/images/left.png" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/nicolas-t/Chocolat/commits/master/images/left.png" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
         <a class="octicon-btn tooltipped tooltipped-nw"
-           href="github-mac://openRepo/https://github.com/nicolas-t/Chocolat?branch=master&amp;filepath=images%2Floader.gif"
+           href="github-mac://openRepo/https://github.com/nicolas-t/Chocolat?branch=master&amp;filepath=images%2Fleft.png"
            aria-label="Open this file in GitHub for Mac"
            data-ga-click="Repository, open with desktop, type:mac">
             <span class="octicon octicon-device-desktop"></span>
         </a>
 
 
-          <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/delete/master/images/loader.gif" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="htf4s468ZpRyLvoyt2mAnk9Nx/gAQPYIbIANLepakq0V/1U6hFWpu5jsgIulSGbqToIAZCrKg9e+4x/tZnnQNQ==" /></div>
+          <form accept-charset="UTF-8" action="/nicolas-t/Chocolat/delete/master/images/left.png" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ThwbXBzbSbuCmHyBcUJojE3MIngA8jTs5rhC9OvB29RMah1dQB6H3L/xy7LKl1KOk1BHWhdBvhnE99PaWsMj4Q==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
 </form>    </div>
 
     <div class="file-info">
-      3.208 kB
+      0.27 kB
     </div>
   </div>
   
   <div class="blob-wrapper data type-text">
       <div class="image">
-          <span class="border-wrap"><img src="/nicolas-t/Chocolat/blob/master/images/loader.gif?raw=true" alt="loader.gif"></span>
+          <span class="border-wrap"><img src="/nicolas-t/Chocolat/blob/master/images/left.png?raw=true" alt="left.png"></span>
       </div>
   </div>
 
@@ -706,7 +727,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.05542s from github-fe139-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.05883s from github-fe120-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
