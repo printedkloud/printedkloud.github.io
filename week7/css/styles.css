@@ -117,7 +117,7 @@ img { border: 0; max-width: 100%; }
   position: absolute;
   bottom: 0;
   padding: .5em;
-  background-color: rgba(58,58,58,0.6);
+  background-color: rgba(58,58,58,0.75);
   width: 100%;
   margin-left: -2%;
   height: 40%;
