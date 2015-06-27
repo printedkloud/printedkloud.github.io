@@ -191,8 +191,7 @@ figcaption {
 }
 
 /* Graphic Design Page */
-
-
+ 
 
 /* Photography Section */
 
@@ -331,7 +330,7 @@ blockquote:after {
 }
 
 blockquote cite {
-	color: rgba(255,255,255,.54);
+	color: rgba(84,58,55,.54);
 	display: block;
 	float:right;
 	font-size: 1.25em;
@@ -397,7 +396,7 @@ blockquote cite:before {
 /* Contact Section */
 
 section#contact {
-	background-color: #f5f5ed;
+	background-color: rgba(255,255,255,.8);
 	color: rgba(58,58,58,.8);
 	height: 600px;
 	width: 100%;
@@ -441,35 +440,8 @@ footer {
   	color: rgba(84,58,55,.8);
   	text-align: center;
 	background-color: #f5f5ed;
-	padding-bottom: 2.5em;
+	padding: 1em 0 2.5em 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .clearfix:after { 
