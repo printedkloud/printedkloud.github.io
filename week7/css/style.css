@@ -23,8 +23,8 @@ h2 {
 /* logo text */
 
 nav img {
-  padding: .5em;
-  width: 200px;
+	width: 250px;
+  	margin-top: -8%;
 }
 
 header {
@@ -38,15 +38,18 @@ header {
 }
 
 nav {
-  	margin: auto;
-  	padding-top: 2em;
-  	padding-bottom: 2em;
+  	padding-top: 1.7em;
+  	padding-bottom: .5em;
   	position: fixed;
   	top: 0;
   	text-transform: uppercase;
   	z-index: 111;
   	background-color: rgba(255,255,255,1);
   	width: 100%;
+}
+
+nav a {
+	color: rgba(81,71,65,1);
 }
 
 nav ul {
@@ -62,7 +65,7 @@ nav li {
 
 /* Home Section */
 
-#topphoto {
+section#home {
   	background: url("../images/cen.jpg");
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -71,12 +74,15 @@ nav li {
 }
 
 #home p {
-  	color: rgba(255,255,255,1);
-  	padding-top: 5em;
+  	color: rgba(132,70,95,1);
+  	padding-top: 10.5em;
   	padding-left: 4em;
   	font-size: 2em;
-  	width: 37%;
-}
+  	font-weight: 900;
+  	width: 44%;
+  	text-transform: uppercase;
+  	letter-spacing: .4em;
+  }
 
 /* Graphic Design Section */
 
@@ -100,7 +106,7 @@ section#graphicdesign {
   	float: left;
   	padding-left: 2em;
   	vertical-align: bottom;
-  	margin: 2% 0 2% 1%;
+  	margin: 1% 0 2% 1%;
 }
 #designinfo img {
 	width: 96%;
@@ -307,11 +313,32 @@ blockquote {
 }
 
 blockquote:before {
-  	color: rgba(84,58,55,.8);
-	content: "\201C";
+  	color: rgba(84,58,55,.7);
+  	content: "\201C";
+  	display: block;
+  	font-size: 3.33em;
+  	position: absolute;left: 33px;top: -20px;
+}
+
+blockquote:after {
+  	color: rgba(84,58,55,0.7);
+  	content: "\201D";
+  	display: block;
+  	font-size: 3.33em;
+  	position: absolute;right: 17px;top: 132px;
+}
+
+blockquote cite {
+	color: rgba(255,255,255,.54);
 	display: block;
-	font-size: 3.33em;
-	position: absolute;left: -20px;top: -20px;
+	float:right;
+	font-size: 1.25em;
+	font-weight:100;
+	margin-top: .33em;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
 }
 
 #abouttext img {
