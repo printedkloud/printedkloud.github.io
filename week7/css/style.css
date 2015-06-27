@@ -75,15 +75,22 @@ section#home {
   	height: 100vh;
 }
 
+#home div {
+	position: absolute;
+	bottom: 22%;
+	display: block;
+	width: 40%;
+}
+
 #home p {
-  	color: rgba(132,70,95,1);
-  	padding-top: 10.5em;
-  	padding-left: 4em;
+  	color: rgba(0,0,0,1);
+  	padding: 1em 0 1em 3em;
   	font-size: 2em;
   	font-weight: 900;
-  	width: 44%;
+  	width: 80%;
   	text-transform: uppercase;
-  	letter-spacing: .4em;
+  	letter-spacing: .25em;
+  	background-color: rgba(221,174,54,.5);
   }
 
 /* Graphic Design Section */
