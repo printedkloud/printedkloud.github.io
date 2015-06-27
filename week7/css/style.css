@@ -38,8 +38,8 @@ header {
 }
 
 nav {
-  	padding-top: 1.7em;
-  	padding-bottom: .5em;
+  	padding-top: 2.15em;
+  	padding-bottom: 1em;
   	position: fixed;
   	top: 0;
   	text-transform: uppercase;
@@ -50,6 +50,7 @@ nav {
 
 nav a {
 	color: rgba(81,71,65,1);
+	font-weight: 700;
 }
 
 nav ul {
@@ -60,6 +61,7 @@ nav li {
 	width: 20%;
 	float: left;
 	text-align: center;
+	line-height: .75em;
 }
 
 
