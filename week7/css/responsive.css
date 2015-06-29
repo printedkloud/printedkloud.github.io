@@ -1,0 +1,13 @@
+@media screen only and (min-width: 1026px) and (max-width: 1165px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+@media screen only and (min-width: 1024px) and (max-width: 1183px) {
+	#home p {
+  	padding: 2em 0 2em 3em;
+  	font-size: 1em;
+  	font-weight: 900;
+  }
+}
