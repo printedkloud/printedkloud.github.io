@@ -168,11 +168,11 @@ section#graphicdesign {
   border-radius: 1.5em;
   color: #ccc;
   display: block;
-  padding: 0.85em 0;
+  padding: 1em 0;
   text-align: center;
   text-decoration: none;
   margin-top: 5%;
-  width: 12em;
+  width: 10em;
 }
 
 .designct:hover {
@@ -181,11 +181,11 @@ section#graphicdesign {
   background-color: rgba(218,141,32,.8);
   color: #fff;
   display: block;
-  padding: 0.85em 0;
+  padding: 1em 0;
   text-align: center;
   text-decoration: none;
   margin-top: 5%;
-  width: 12em;
+  width: 10em;
 }
 
 /* Graphic Design Page */
@@ -231,7 +231,7 @@ section#photography {
   display: block;
   text-align: center;
   text-decoration: none;
-  width: 12em;
+  width: 10em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
