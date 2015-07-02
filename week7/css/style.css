@@ -16,9 +16,10 @@ a:hover {
 }
 
 /* for current page */
-a .activelink {
+.activelink {
   padding-bottom: .45em;
   border-bottom: 1.75px solid rgba(218,141,32,1);
+  display: inline-block;
 }
 
 h2 {
