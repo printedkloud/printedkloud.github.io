@@ -1,15 +1,13 @@
 @media only screen and (min-width: 876px) and (max-width: 1015px) {
 	body {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 	nav {
-		padding-top: 3em;
 		padding-left: 2em;
 	}
 
 	nav img {
-		width: 65%;
 		margin-top: -12%;
 	}
 
@@ -44,19 +42,11 @@
 	}
 
 	nav {
-		padding-top: 3em;
-		padding-left: 2em;
-
+		display: none;
 	}
 
-	nav img {
-		width: 79%;
-		margin-top: -12%;
-	}
-
-	nav li {
-		line-height: 1em;
-		text-align: left;
+	.mobile-nav {
+		display: block;
 	}
 
 	#home p {
