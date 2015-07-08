@@ -238,7 +238,7 @@ section#photography {
 
 #photo-overlay {
   width: 100%;
-  background-color: rgba(84,58,55,.35);
+  background-color: rgba(84,58,55,.45);
   padding: 10em;
 }
 
@@ -248,7 +248,7 @@ section#photography {
   padding-bottom: 0.55em;
   text-transform: uppercase;
   border-bottom: solid 1px rgba(255,255,255,.5);
-  color: rgba(218,141,32,1);
+  color: rgba(255,255,235,1);
   font-weight: 600;
   font-size: 2.5em;
   width: 85%;
