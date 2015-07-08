@@ -80,7 +80,9 @@ section#home {
  	background-repeat: no-repeat;
  	background-size: cover;
  	display: block; 
-  height: 100vh;
+  max-width: 100%;
+  padding-top: 25em;
+  padding-bottom: 12em;
 }
 
 #home h2 {
@@ -88,17 +90,29 @@ section#home {
 }
 
 #home div {
-	position: absolute;
+	position: relative;
 	bottom: 22%;
 	display: block;
 }
 
-#home p {
+#home p:first-child {
 	color: rgba(0,0,0,1);
   padding: 1.5em 0 1.1em 2em;
   font-size: 1.35em;
   font-weight: 900;
   width: 80%;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  background-color: rgba(218,141,32,.7);
+  }
+
+  #home p:last-child {
+  color: rgba(0,0,0,1);
+  padding: 0 0 1.1em 2em;
+  font-size: 1.35em;
+  font-weight: 900;
+  width: 80%;
+  line-height: .15em;
   text-transform: uppercase;
   letter-spacing: .25em;
   background-color: rgba(218,141,32,.7);
@@ -121,7 +135,7 @@ section#graphicdesign {
   float: left;
 }
 #designinfo img {
-	width: 96%;
+	max-width: 100%;
   margin-bottom: 6%;
   box-shadow: 1px 20px 54px rgba(58,58,58,0.2);
   border-radius: 0.2em;
@@ -171,7 +185,7 @@ section#graphicdesign {
 .designct {
   border: .1em rgba(58,58,58,.2) solid;
   border-radius: 1.5em;
-  color: #ccc;
+  color: rgba(58,58,58,.7);
   display: block;
   padding: 1em 0;
   text-align: center;
