@@ -54,9 +54,17 @@
   		font-weight: 900;
 	}
 
+	section#graphicdesign {
+		padding-left: 0;
+	}
+
 	#designinfo div {
 		width: 100%;
 		float: none;
+	}
+
+	#designinfo div:last-child {
+		padding-left: 4em;
 	}
 
 	#designinfo h2 {
@@ -117,6 +125,10 @@
 		float: none;
 		font-size: 1em;
 		margin: 1em 4em 1.7em;
+	}
+
+	#contact p {
+		font-size: 1.2em;
 	}
 }
 
