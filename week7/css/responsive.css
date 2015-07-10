@@ -19,7 +19,7 @@
 	#home p {
   		font-size: 1.1em;
   		font-weight: 900;
-  }
+  	}
 
 	.designct {
   		width: 10em;
@@ -40,7 +40,9 @@
 	body {
 		font-size: 15px;
 	}
-
+	
+	/* // Navigation // */
+	
 	nav {
 		display: none;
 	}
@@ -49,10 +51,15 @@
 		display: block;
 	}
 
+	/* // Home // */
+
 	#home p {
   		font-size: 1.1em;
   		font-weight: 900;
 	}
+
+	/* // Graphic Design Section // */
+
 
 	section#graphicdesign {
 		padding-left: 0;
@@ -87,6 +94,8 @@
 		font-size: 1.05em;
 	}
 
+	/* // Photo Section // */
+
 	#photocontent h2 {
 		margin-top: 10%;
 	}
@@ -97,6 +106,8 @@
   		color: #fff;
   		border: .1em rgba(255,172,34,1) solid;
 	}
+
+	/* // About // */
 
 	#about h2 {
 		width: 100%;
@@ -127,15 +138,20 @@
 		margin: 1em 4em 1.7em;
 	}
 
+	/* // Contact // */
+
+
 	#contact p {
 		font-size: 1.2em;
 	}
 }
 
 @media only screen and (max-width: 636px) {
-	body: {
+	body {
 		font-size: 15px;
 	}
+
+	/* // Navigation // */
 
 	nav {
 		display: none;
@@ -144,6 +160,8 @@
 	.mobile-nav {
 		display: block;
 	}
+
+	/* // Home // */
 
 	#home p:first-child {
   		font-size: 1.1em;
@@ -159,6 +177,8 @@
 		text-align: center;
 		padding-bottom: 2.25em;
 	}
+
+	/* // Graphic Design Section // */
 
 	section#graphicdesign {
 		padding-left: 0;
@@ -203,6 +223,9 @@
 		display: none;
 	}
 
+	/* // Photo Section // */
+
+
 	#photocontent h2 {
 		margin-top: 10%;
 	}
@@ -217,16 +240,29 @@
 		padding: 5.5em 4.5em 9em 4.5em;
 	}
 
+	/* // About // */
+
+	section#about {
+		padding: 7.5em 2em;
+	}
+
 	#about h2 {
 		width: 100%;
+		text-align: center;
 	}
 
 	#about h3 {
-		margin: 3% 5% 1%;
+		margin: 3% 2% 1% 9%;
+		font-size: 1.15em;
 	}
 
 	#about div {
 		float: none;
+		width: 100%;
+		padding-left: .75em;
+	}
+
+	#about p {
 		width: 100%;
 	}
 
@@ -237,7 +273,7 @@
 	} 
 
 	blockquote::before {
-		left: -4px;
+		left: 8px;
 	}
 
 	blockquote cite {
@@ -246,7 +282,15 @@
 		margin: 1em 4em 1.7em;
 	}
 
+	/* // Contact // */
+
 	#contact p {
 		font-size: 1.2em;
+	}
+	
+	/* // Back to Top Button // */
+
+	.back-to-top {
+		display: block;
 	}
 }

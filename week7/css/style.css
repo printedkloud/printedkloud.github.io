@@ -370,9 +370,9 @@ blockquote cite:before {
 
 section#contact {
 	background-color: rgba(255,255,255,.8);
-	color: rgba(58,58,58,.8);
-	height: 600px;
 	width: 100%;
+  padding-top: 3em;
+  padding-bottom: 15em;
 }
 
 #contact div {
@@ -416,6 +416,28 @@ footer {
 	padding: 1em 0 2.5em 0;
 }
 
+footer p {
+  color: rgba(84,58,55,.8);
+  font-weight: 700;
+}
+
+/* Back to top button */
+
+.back-to-top {
+  background: none;
+  display: none;
+  margin: 1.25% auto;
+  padding: .6em;
+  outline: solid 1.5px rgba(218,141,32,.5);
+  width: 22%;
+}
+
+.back-to-top i {
+  font-size: 1.25em;
+  padding-bottom: .15em;
+  color: rgba(84,58,55,.8);
+}
+
 /* ///// HAMBURGER MENU ///// */
 
 #menu-btn {
@@ -436,7 +458,7 @@ footer {
   font-size: 18px;
   font-weight: 200;
   vertical-align: middle;
-  z-index: 99;
+  z-index: 999;
 }
 
 .menu-btn span {
@@ -445,11 +467,15 @@ footer {
   height: 2px;
   margin: 5.25px 0;
   background: rgba(84,58,55,.8);
-  z-index: 99;
+  z-index: 999;
 }
 
 .responsive-menu{
   display: none;
+}
+
+.responsive-menu a {
+  color: rgba(218,141,32,.8);
 }
 
 .expand {
@@ -464,7 +490,6 @@ footer {
 .expand li {
   list-style-type: none;
   padding: 1em 0 1em 0;
-}
 }
 
 .mobile-nav {
