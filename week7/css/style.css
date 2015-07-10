@@ -421,6 +421,10 @@ footer p {
   font-weight: 700;
 }
 
+footer p:last-child {
+  display: none;
+}
+
 /* Back to top button */
 
 .back-to-top {
