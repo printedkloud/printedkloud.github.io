@@ -4,20 +4,25 @@
 	}
 }
 
-
 @media only screen and (max-width: 1015px) {
 	body {
 		font-size: 16px;
 	}
 
+	/* // MOBILE NAVIGATION // */
+
 	nav li {
 		line-height: 1em;
 	}
 
+	/* // HOME SECTION // */
+	
 	#home p {
   		font-size: 1.1em;
   		font-weight: 900;
   	}
+
+  	/* // GRAPHIC DESIGN SECTION // */
 
 	.designct {
   		width: 10em;
@@ -39,7 +44,6 @@
 	nav li:first-child {
   		width: 20%;
 	}
-
 }
 
 @media only screen and (max-width: 888px) {
@@ -47,7 +51,7 @@
 		font-size: 15px;
 	}
 	
-	/* // Navigation // */
+	/* // MOBILE NAVIGATION // */
 	
 	nav {
 		display: none;
@@ -59,15 +63,14 @@
 		font-weight: 700;
 	}
 
-	/* // Home // */
+	/* // HOME SECTION // */
 
 	#home p {
   		font-size: 1.1em;
   		font-weight: 900;
 	}
 
-	/* // Graphic Design Section // */
-
+	/* // GRAPHIC DESIGN SECTION // */
 
 	section#graphicdesign {
 		padding-left: 0;
@@ -79,7 +82,7 @@
 	}
 
 	#designinfo div:last-child {
-		  padding: 0.25em 5em 2em 6em;
+		padding: 0.25em 5em 2em 6em;
 	}
 
 	#designinfo h2 {
@@ -102,7 +105,7 @@
 		font-size: 1.05em;
 	}
 
-	/* // Photo Section // */
+	/* // PHOTO SECTION // */
 
 	#photocontent h2 {
 		margin-top: 10%;
@@ -115,7 +118,7 @@
   		border: .1em rgba(255,172,34,1) solid;
 	}
 
-	/* // About // */
+	/* // ABOUT SECTION // */
 
 	#about h2 {
 		width: 100%;
@@ -146,8 +149,7 @@
 		margin: 1em 4em 1.7em;
 	}
 
-	/* // Contact // */
-
+	/* // CONTACT SECTION // */
 
 	#contact p {
 		font-size: 1.2em;
@@ -159,7 +161,7 @@
 		font-size: 15px;
 	}
 
-	/* // Navigation // */
+	/* // MOBILE NAVIGATION // */
 
 	nav {
 		display: none;
@@ -173,7 +175,7 @@
 		margin-top: 3.75%;
 	}
 
-	/* // Home // */
+	/* // HOME SECTION // */
 
 	#home p:first-child {
   		font-size: 1.1em;
@@ -190,7 +192,7 @@
 		padding-bottom: 2.25em;
 	}
 
-	/* // Graphic Design Section // */
+	/* // GRAPHIC DESIGN SECTION // */
 
 	section#graphicdesign {
 		padding-left: 0;
@@ -236,7 +238,7 @@
 		display: none;
 	}
 
-	/* // Photo Section // */
+	/* // PHOTO SECTION // */
 
 
 	#photocontent h2 {
@@ -249,11 +251,12 @@
   		color: #fff;
   		border: .1em rgba(255,172,34,1) solid;
 	}
+
 	#photo-overlay {
 		padding: 10.5em 4.5em 15em 4.5em;
 	}
 
-	/* // About // */
+	/* // ABOUT SECTION // */
 
 	section#about {
 		padding: 7.5em 2em;
@@ -295,18 +298,17 @@
 		margin: 1em 4em 1.7em;
 	}
 
-	/* // Contact // */
+	/* // CONTACT SECTION // */
 
 	#contact p {
 		font-size: 1.2em;
 	}
 	
-	/* // Back to Top Button // */
+	/* // BACK TO TOP BUTTON // */
 
 	.back-to-top {
 		display: block;
 	}
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -314,7 +316,7 @@
 		font-size: 15px;
 	}
 
-	/* // Navigation // */
+	/* // MOBILE NAVIGATION // */
 
 	nav {
 		display: none;
@@ -328,7 +330,7 @@
 		margin-top: 5.5%;
 	}
 
-	/* // Home // */
+	/* // HOME SECTION // */
 
 	#home p:first-child {
   		font-size: 1.1em;
@@ -345,7 +347,7 @@
 		padding-bottom: 2.25em;
 	}
 
-	/* // Graphic Design Section // */
+	/* // GRAPHIC DESIGN SECTION // */
 
 	section#graphicdesign {
 		padding-left: 0;
@@ -393,13 +395,11 @@
 		display: none;
 	}
 
-	/* // Photo Section // */
-
+	/* // PHOTO SECTION // */
 
 	#photocontent h2 {
 		margin-top: 10%;
 		font-size: 1.95em;
-
 	}
 
 	.ct {
@@ -408,11 +408,12 @@
   		color: #fff;
   		border: .1em rgba(255,172,34,1) solid;
 	}
+
 	#photo-overlay {
 		padding: 7.5em 4.5em 11em 4.5em;
 	}
 
-	/* // About // */
+	/* // ABOUT SECTION // */
 
 	section#about {
 		padding: 7.5em 2em;
@@ -422,7 +423,6 @@
 		width: 100%;
 		text-align: center;
 		font-size: 1.95em;
-
 	}
 
 	#about h3 {
@@ -456,7 +456,7 @@
 		margin: 1em 4em 1.7em;
 	}
 
-	/* // Contact // */
+	/* // CONTACT SECTION// */
 
 	#contact h2 {
 		font-size: 1.95em;

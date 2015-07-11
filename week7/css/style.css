@@ -5,6 +5,7 @@ body {
 	font-size: 16px;
 }
 
+/* --- LINKS --- */
 a {
 	text-decoration: none;
 	color: rgba(218,141,32,.5);
@@ -15,7 +16,7 @@ a:hover {
 	color: rgba(218,141,32,1);
 }
 
-/* for current page */
+/* STYLING FOR CURRENT PAGE */
 .activelink {
   padding-bottom: .45em;
   border-bottom: 1.75px solid rgba(218,141,32,1);
@@ -26,19 +27,20 @@ h2 {
 	font-weight: 900;
 }
 
-/* --- navigation panel --- */
-/* logo text */
-
-nav img {
-	max-width: 125px;
-  width: 100%;
-  margin-top: -12%;
-}
+/* ////// NAVIGATION PANEL ////// */
 
 header {
   position: absolute;
   width: 100%;
   background-color: rgba(255,255,255,1);
+}
+
+/* --- LOGO IMAGE --- */
+
+nav img {
+  max-width: 125px;
+  width: 100%;
+  margin-top: -12%;
 }
 
 nav {
@@ -72,8 +74,7 @@ nav li:first-child {
   width: 20%;
 }
 
-
-/* Home Section */
+/* ////// HOME SECTION ////// */
 
 section#home {
 	background: url("../images/cen.jpg");
@@ -104,9 +105,9 @@ section#home {
   text-transform: uppercase;
   letter-spacing: .25em;
   background-color: rgba(218,141,32,.7);
-  }
+}
 
-  #home p:last-child {
+#home p:last-child {
   color: rgba(0,0,0,1);
   padding: 0 0 1.1em 2em;
   font-size: 1.35em;
@@ -116,9 +117,9 @@ section#home {
   text-transform: uppercase;
   letter-spacing: .25em;
   background-color: rgba(218,141,32,.7);
-  }
+}
 
-/* Graphic Design Section */
+/* ////// GRAPHIC DESIGN SECTION ////// */
 
 section#graphicdesign {
   width: 100%;
@@ -134,6 +135,7 @@ section#graphicdesign {
 	width: 46%;
   float: left;
 }
+
 #designinfo img {
 	max-width: 100%;
   margin-bottom: 6%;
@@ -207,10 +209,7 @@ section#graphicdesign {
   width: 10em;
 }
 
-/* Graphic Design Page */
-
-
-/* Photography Section */
+/* ////// PHOTOGRAPHY SECTION ////// */
 
 section#photography {
 	background: url("../images/forestarchway_blur.jpg");
@@ -278,7 +277,7 @@ section#photography {
   margin: 0 auto;
 }
 
-/* About Section */
+/* ////// ABOUT SECTION ////// */
 
 section#about {
 	width: 100%;
@@ -348,7 +347,7 @@ blockquote cite:before {
 }
 
 #about p {
-	line-height: 1.1em;
+  line-height: 1.1em;
   color: rgba(84,58,55,.8);
 	width: 89%;
 	text-align: left;
@@ -366,7 +365,7 @@ blockquote cite:before {
 	color: rgba(255,172,34,0.9);
 }
 
-/* Contact Section */
+/* ////// CONTACT SECTION ////// */
 
 section#contact {
 	background-color: rgba(255,255,255,.8);
@@ -404,10 +403,9 @@ section#contact {
 	margin-bottom: 1%;
 	font-size: 1.5em;
 	color: rgba(84,58,55,.8);
-
 }
 
-/* footer */
+/* ////// FOOTER ////// */
 
 footer {
   color: rgba(84,58,55,.8);
@@ -421,7 +419,7 @@ footer p {
   font-weight: 700;
 }
 
-/* Back to top button */
+/* ////// BACK TO TOP BUTTON ///// */
 
 .back-to-top {
   background: none;
