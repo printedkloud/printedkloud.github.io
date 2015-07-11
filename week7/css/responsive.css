@@ -55,6 +55,8 @@
 
 	.mobile-nav {
 		display: block;
+		background-color: #fff;
+		font-weight: 700;
 	}
 
 	/* // Home // */
@@ -303,12 +305,8 @@
 
 	.back-to-top {
 		display: block;
-		margin-top: 6%;
 	}
 
-	footer p:last-child {
-  		display: block;
-	}
 }
 
 @media only screen and (max-width: 400px) {
@@ -466,16 +464,5 @@
 
 	#contact p {
 		font-size: 1.2em;
-	}
-	
-	/* // Back to Top Button // */
-
-	.back-to-top {
-		display: block;
-		margin-top: 6%;
-	}
-
-	footer p:last-child {
-  		display: block;
 	}
 }
