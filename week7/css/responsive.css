@@ -167,6 +167,10 @@
 		display: block;
 	}
 
+	#menu-btn {
+		margin-top: 3.75%;
+	}
+
 	/* // Home // */
 
 	#home p:first-child {
@@ -320,6 +324,10 @@
 
 	.mobile-nav {
 		display: block;
+	}
+
+	#menu-btn {
+		margin-top: 5.5%;
 	}
 
 	/* // Home // */

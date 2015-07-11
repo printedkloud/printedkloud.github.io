@@ -448,7 +448,7 @@ footer p:last-child {
   float: right;
   padding: .25em 0.55em;
   outline: solid 1px rgba(218,141,32,.7);
-  margin-top: 2.5%;
+  margin-top: 2.95%;
   margin-right: 3%;
 }
 
@@ -498,7 +498,7 @@ footer p:last-child {
 
 .mobile-nav {
   display: none;
-  padding: .75em 2em .6em 4em;
+  padding: .75em 2em 0.6em 2.5em;
 }
 
 .mobile-nav img {
