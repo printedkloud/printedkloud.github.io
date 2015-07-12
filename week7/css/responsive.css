@@ -17,7 +17,7 @@
 
 	/* // HOME SECTION // */
 	
-	#home p {
+	#home h2 {
   		font-size: 1.1em;
   		font-weight: 900;
   	}
@@ -65,7 +65,7 @@
 
 	/* // HOME SECTION // */
 
-	#home p {
+	#home h2 {
   		font-size: 1.1em;
   		font-weight: 900;
 	}
@@ -177,14 +177,14 @@
 
 	/* // HOME SECTION // */
 
-	#home p:first-child {
+	#home h2:first-child {
   		font-size: 1.1em;
   		font-weight: 900;
 		width: 100%;
 		text-align: center;
 	}
 
-	#home p:last-child {
+	#home h2:last-child {
   		font-size: 1.1em;
   		font-weight: 900;
 		width: 100%;
@@ -332,14 +332,14 @@
 
 	/* // HOME SECTION // */
 
-	#home p:first-child {
+	#home h2:first-child {
   		font-size: 1.1em;
   		font-weight: 900;
 		width: 100%;
 		text-align: center;
 	}
 
-	#home p:last-child {
+	#home h2:last-child {
   		font-size: 1.1em;
   		font-weight: 900;
 		width: 100%;

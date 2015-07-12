@@ -86,17 +86,13 @@ section#home {
   padding-bottom: 12em;
 }
 
-#home h2 {
-	padding: .5em;
-}
-
 #home div {
 	position: relative;
 	bottom: 22%;
 	display: block;
 }
 
-#home p:first-child {
+#home h2:first-child {
 	color: rgba(0,0,0,1);
   padding: 1.5em 0 1.1em 2em;
   font-size: 1.35em;
@@ -107,7 +103,7 @@ section#home {
   background-color: rgba(218,141,32,.7);
 }
 
-#home p:last-child {
+#home h2:last-child {
   color: rgba(0,0,0,1);
   padding: 0 0 1.1em 2em;
   font-size: 1.35em;
