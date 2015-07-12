@@ -72,6 +72,7 @@ img { border: 0; max-width: 100%; }
   max-width: 400px;
   margin-right: 20px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 #portfolio li a {
@@ -87,7 +88,7 @@ img { border: 0; max-width: 100%; }
 }
 
 #portfolio figcaption {
-  font-size: 1.1em;
+  font-size: .97em;
   color: #fff;
 } 
 
@@ -106,15 +107,12 @@ img { border: 0; max-width: 100%; }
 
 .overlap-figure
 .caption {
-  position: absolute;
-  padding: .5em;
+  position: relative;
+  padding: .75em;
   background-color: rgba(218,141,32,1);
   width: 100%;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 15%;
   text-align: center;
+  margin-top: -30px;
 }
 
 .mfp-title {
