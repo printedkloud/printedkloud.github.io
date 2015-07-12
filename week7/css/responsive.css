@@ -68,7 +68,11 @@
 	#home h2 {
   		font-size: 1.1em;
   		font-weight: 900;
-	}
+  	}
+
+  	#home h2:first-child; {
+  		padding-bottom: 1em;
+  	}
 
 	/* // GRAPHIC DESIGN SECTION // */
 
@@ -182,6 +186,7 @@
   		font-weight: 900;
 		width: 100%;
 		text-align: center;
+		padding: 1.5em 0 1.1em 0;
 	}
 
 	#home h2:last-child {
@@ -189,7 +194,7 @@
   		font-weight: 900;
 		width: 100%;
 		text-align: center;
-		padding-bottom: 2.25em;
+		padding: 0 0 2.25em 0;
 	}
 
 	/* // GRAPHIC DESIGN SECTION // */

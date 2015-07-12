@@ -98,6 +98,7 @@ section#home {
   font-size: 1.35em;
   font-weight: 900;
   width: 80%;
+  line-height: .85em;
   text-transform: uppercase;
   letter-spacing: .25em;
   background-color: rgba(218,141,32,.7);
