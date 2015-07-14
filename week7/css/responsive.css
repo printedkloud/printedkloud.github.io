@@ -46,7 +46,7 @@
 	}
 }
 
-@media only screen and (max-width: 888px) {
+@media only screen and (max-width: 907px) {
 	body {
 		font-size: 15px;
 	}
@@ -176,7 +176,7 @@
 	}
 
 	#menu-btn {
-		margin-top: 3.75%;
+		margin-top: 4%;
 	}
 
 	/* // HOME SECTION // */
@@ -313,6 +313,26 @@
 
 	.back-to-top {
 		display: block;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 514px)  {
+	body {
+		font-size: 15px;
+	}
+
+	/* // MOBILE NAVIGATION // */
+
+	nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	#menu-btn {
+		margin-top: 4.75%
 	}
 }
 
